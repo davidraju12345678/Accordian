@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>accordian</title>
+    <style>
+.hidden-box p{
+    line-height: 1.5em;
+}
+
+.hidden-box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.number{
+    color: rgba(241, 55, 80, 0.658);
+    font-weight: bold;
+    font-size: 30px;
+} 
+.text{
+    color: rgb(255, 0, 34);
+}
+.item{
+    width: 700px;
+    box-shadow: 0 10px 10px 0 rgba(38, 0, 255, 0.856);
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    
+}
+
+.hidden-box{
+    grid-column: 2/3;
+}
+ </style>
+</head>
+<body>
+    <div class="accordian">
+        <div class="item">
+    <h1 class="number">01</h1>
+    <h2 class="text">  Some Movies in Which Hero Died</h2>
+    
+ <div class="hidden-box">
+    <p>hero died because hero's character died in script.hero's character died in script because writer wrote as hero died.if hero doesnt die,it means doesn't die.</p>
+ <ul>
+
+    <li>hero kochina kashtam</li>
+    <li>swargam lo</li>
+    <li>hero leni heroine</li>
+<li>Hero poyadu</li>
+ </ul>
+</div>   
+</div> 
+
+ </div>   
+ <div class="accordian">
+    <div class="item">
+<h1 class="number">01</h1>
+<h2 class="text">  Some Movies in Which Hero Died</h2>
+
+<div class="hidden-box">
+<p>hero died because hero's character died in script.hero's character died in script because writer wrote as hero died.if hero doesnt die,it means doesn't die.</p>
+<ul>
+
+<li>hero kochina kashtam</li>
+<li>swargam lo</li>
+<li>hero leni heroine</li>
+<li>Hero poyadu</li>
+</ul>
+</div>   
+</div> 
+
+</div>   
+    
+</body>
+</html>
